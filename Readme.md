@@ -94,6 +94,7 @@ Como ejercicio complementario, se realizó una transferencia sencilla de archivo
 
 
 curl https://example.com -o ejemplo.html
+![Ejemplo Curl](curl-example.png)
 
 
 Este comando descarga el contenido de la página `example.com` y lo guarda localmente en un archivo llamado `ejemplo.html`.
