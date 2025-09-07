@@ -44,9 +44,8 @@ Captura de pantalla mostrando el resultado del comando en PowerShell:
 Se abrió **Wireshark**, seleccionando la interfaz de red activa (en este caso, conexión Wi-Fi).
 Se aplicó el siguiente filtro de captura para observar únicamente el tráfico relevante:
 
-```
+
 tcp port 443
-```
 
 Posteriormente, se ejecutó nuevamente el comando `Test-NetConnection` y se analizaron los primeros tres paquetes que corresponden al proceso de **Three Way Handshake**.
 
