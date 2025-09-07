@@ -92,9 +92,9 @@ Este mecanismo cumple tres funciones críticas:
 
 Como ejercicio complementario, se realizó una transferencia sencilla de archivos utilizando el comando `curl`:
 
-```powershell
+
 curl https://example.com -o ejemplo.html
-```
+
 
 Este comando descarga el contenido de la página `example.com` y lo guarda localmente en un archivo llamado `ejemplo.html`.
 De esta manera, se valida que tras el establecimiento del handshake TCP, es posible transmitir datos de manera segura sobre la conexión.
